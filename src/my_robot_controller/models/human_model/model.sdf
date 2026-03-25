@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <model name="my_mesh_model">
+   <pose>2.0 0 0.85 0 0 -1.61</pose> <static>true</static> <link name="base_link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/body_mesh.dae</uri>
+            <scale>0.35 0.35 0.3</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/body_mesh.dae</uri>
+            <scale>0.3 0.35 0.3</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

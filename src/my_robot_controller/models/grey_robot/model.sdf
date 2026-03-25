@@ -1,0 +1,319 @@
+<sdf version="1.8">
+  <model name="grey_robot">
+    <self_collide>false</self_collide>
+
+    <frame name="lidar_frame" attached_to='chassis'>
+        <pose> 0.4 0 0 0 0 0</pose>
+	  </frame>
+
+    <link name="chassis">
+      <pose>0 0 0.5 0 0 0</pose> 
+      
+      <inertial>
+        <pose>-0.2 0 -0.2 0 0 0</pose> 
+        <mass>15.0</mass>
+        <inertia>
+          <ixx>0.8</ixx>
+          <iyy>0.8</iyy>
+          <izz>0.8</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="base_platform_visual">
+        <geometry>
+          <box>
+            <size>0.8 0.6 0.08</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.3 0.3 0.3 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="cabin_visual">
+        <pose>-0.05 0 0.44 0 0 0</pose> 
+        <geometry>
+          <box>
+            <size>0.65 0.5 0.8</size> </box>
+        </geometry>
+        <material>
+          <ambient>0.1 0.5 0.8 1</ambient> <diffuse>0.1 0.5 0.8 1</diffuse>
+        </material>
+      </visual>
+
+      <collision name="chassis_collision">
+        <pose>0 0 0.15 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.8 0.6 0.48</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <visual name="camera_visual">
+        <pose>0.3 0 0.5 0 0 0</pose> 
+        <geometry>
+          <box>
+            <size>0.05 0.05 0.05</size> </box>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1</ambient> <diffuse>0.1 0.1 0.1 1</diffuse>
+          <specular>1 1 1 1</specular>    </material>
+      </visual>
+
+      <sensor name="camera" type="camera">
+        <pose>0.3 0 0.5 0 0 0</pose> <always_on>1</always_on>
+        <update_rate>30</update_rate>
+        <visualize>true</visualize>
+        <topic>camera/image_raw</topic>
+        <camera name="intel_realsense">
+          <horizontal_fov>1.3962634</horizontal_fov> <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100</far>
+          </clip>
+        </camera>
+      </sensor>
+
+
+      <sensor name='gpu_lidar' type='gpu_lidar'>"
+          <pose relative_to='lidar_frame'>0 0 0 0 0 0</pose>
+          <topic>lidar</topic>
+          <update_rate>10</update_rate>
+          <ray>
+              <scan>
+                  <horizontal>
+                      <samples>640</samples>
+                      <resolution>1</resolution>
+                      <min_angle>-1.396263</min_angle>
+                      <max_angle>1.396263</max_angle>
+                  </horizontal>
+                  <vertical>
+                      <samples>1</samples>
+                      <resolution>0.01</resolution>
+                      <min_angle>0</min_angle>
+                      <max_angle>0</max_angle>
+                  </vertical>
+              </scan>
+              <range>
+                  <min>0.08</min>
+                  <max>10.0</max>
+                  <resolution>0.01</resolution>
+              </range>
+          </ray>
+          <always_on>1</always_on>
+          <visualize>true</visualize>
+      </sensor>
+
+    </link>
+    
+    <link name="body_L">
+      <pose>0.3 0.3 0.5 0 0 0</pose>
+      <visual name="visual">
+        <geometry><box><size>0.1 0.1 0.1</size></box></geometry>
+      </visual>
+    </link>
+
+    <link name="axle_L">
+      <pose>0.3 0.3 0.15 1.5708 0 0</pose> <visual name="visual">
+        <geometry><cylinder><radius>0.02</radius><length>0.15</length></cylinder></geometry>
+        <material><ambient>1 0 0 1</ambient></material>
+      </visual>
+      <visual name="vertical_shock">
+        <pose>0 0.2 0 1.5708 0 0</pose> 
+        <geometry>
+          <cylinder>
+            <radius>0.015</radius>
+            <length>0.4</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.2 0.2 0.2 1</diffuse>
+        </material>
+      </visual>
+    </link>
+    
+    <link name="tire_L">
+      <pose>0.3 0.35 0.15 1.5708 0 0</pose> 
+      <collision name="collision"><geometry><cylinder><radius>0.15</radius><length>0.05</length></cylinder></geometry></collision>
+      <visual name="visual"><geometry><cylinder><radius>0.15</radius><length>0.05</length></cylinder></geometry></visual>
+    </link>
+
+    <link name="body_R"><pose>0.3 -0.3 0.5 0 0 0</pose><visual name="visual"><geometry><box><size>0.1 0.1 0.1</size></box></geometry></visual></link>
+
+    <link name="axle_R">
+      <pose>0.3 -0.3 0.15 1.5708 0 0</pose> 
+      <visual name="visual">
+        <geometry><cylinder><radius>0.02</radius><length>0.15</length></cylinder></geometry>
+        <material><ambient>1 0 0 1</ambient></material>
+      </visual>
+      <visual name="vertical_shock">
+        <pose>0 0.2 0 1.5708 0 0</pose>  
+        <geometry>
+          <cylinder>
+            <radius>0.015</radius>
+            <length>0.4</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1</ambient>
+          <diffuse>0.2 0.2 0.2 1</diffuse>
+        </material>
+      </visual>
+    </link>
+    
+    
+    <link name="tire_R">
+      <pose>0.3 -0.35 0.15 1.5708 0 0</pose> 
+      <collision name="collision"><geometry><cylinder><radius>0.15</radius><length>0.05</length></cylinder></geometry></collision>
+      <visual name="visual"><geometry><cylinder><radius>0.15</radius><length>0.05</length></cylinder></geometry></visual>
+    </link>
+
+
+
+
+    z<link name="caster_housing">
+      <pose>-0.3 0 0.5 0 0 0</pose>
+
+      <visual name="housing_visual">
+        <geometry>
+          <box><size>0.15 0.15 0.1</size></box>
+        </geometry>
+        <material><ambient>0.2 0.2 0.2 1</ambient></material>
+      </visual>
+
+      <visual name="strut_visual">
+        <pose>0 0 -0.15 0 0 0</pose> 
+        <geometry>
+          <box>
+            <size>0.06 0.06 0.3</size> </box>
+        </geometry>
+        <material><ambient>0.1 0.1 0.1 1</ambient></material>
+      </visual>
+
+      <collision name="collision">
+        <pose>0 0 -0.1 0 0 0</pose>
+        <geometry>
+          <box><size>0.15 0.15 0.4</size></box>
+        </geometry>
+      </collision>
+    </link>  
+    
+    <link name="caster_ball">
+      <pose>-0.3 0 0.15 0 0 0</pose>
+      <collision name="collision">
+        <geometry><sphere><radius>0.1</radius></sphere></geometry>
+        <surface>
+          <friction><ode><mu>0.01</mu><mu2>0.01</mu2><slip1>1.0</slip1><slip2>1.0</slip2></ode></friction>
+          <contact><ode><soft_cfm>0.01</soft_cfm><kp>1000000.0</kp><kd>1.0</kd></ode></contact>
+        </surface>
+      </collision>
+      <visual name="visual"><geometry><sphere><radius>0.1</radius></sphere></geometry></visual>
+    </link>
+
+
+
+
+    <joint name="suspension_caster" type="prismatic">
+      <parent>caster_housing</parent><child>caster_ball</child>
+      <axis>
+        <xyz expressed_in="__model__">0 0 1</xyz>
+        ##<limit><lower>-0.02</lower><upper>0.02</upper></limit>
+        <dynamics><spring_stiffness>3000.0</spring_stiffness><damping>100.0</damping></dynamics>
+      </axis>
+    </joint>
+
+    <joint name="ch_to_C" type="fixed"><parent>chassis</parent><child>caster_housing</child></joint>
+
+    <joint name="ch_to_L" type="fixed"><parent>chassis</parent><child>body_L</child></joint>
+    <joint name="ch_to_R" type="fixed"><parent>chassis</parent><child>body_R</child></joint>
+   
+
+    <joint name="suspension_L" type="prismatic">
+      <parent>body_L</parent><child>axle_L</child>
+      <axis>
+        <xyz expressed_in="__model__">0 0 1</xyz>
+        <limit><lower>-0.15</lower><upper>0.15</upper></limit> 
+        <dynamics><spring_stiffness>2000.0</spring_stiffness><damping>200.0</damping></dynamics>
+      </axis>
+    </joint>
+
+    <joint name="suspension_R" type="prismatic">
+      <parent>body_R</parent><child>axle_R</child>
+      <axis>
+        <xyz expressed_in="__model__">0 0 1</xyz>
+        <limit><lower>-0.15</lower><upper>0.15</upper></limit>
+        <dynamics><spring_stiffness>2000.0</spring_stiffness><damping>200.0</damping></dynamics>
+      </axis>
+    </joint>
+
+
+
+    <joint name="drive_L" type="revolute"><parent>axle_L</parent><child>tire_L</child><axis><xyz expressed_in="__model__">0 1 0</xyz></axis></joint>
+    <joint name="drive_R" type="revolute"><parent>axle_R</parent><child>tire_R</child><axis><xyz expressed_in="__model__">0 1 0</xyz></axis></joint>
+
+
+
+
+    <link name='lidar_disk'>
+      <pose relative_to='lidar_frame'>0 0 0 0 0 0</pose>
+        <visual name='lidar_disk_visual'>
+            <geometry>
+                <cylinder>
+                    <radius>0.06</radius>
+                    <length>0.06</length>
+                </cylinder>
+            </geometry>
+            <material>
+              <ambient>0.1 0.1 0.1 1</ambient>
+              <diffuse>0.2 0.2 0.2 1</diffuse>
+            </material>
+        </visual>
+        <collision name='collision'>
+            <geometry>
+                <cylinder>
+                    <radius>0.06</radius>
+                    <length>0.06</length>
+                </cylinder>
+            </geometry>
+        </collision>
+    </link>
+            
+    <joint name='lidar_disk_joint' type='fixed'>
+        <parent>chassis</parent>
+        <child>lidar_disk</child>
+    </joint>
+
+
+
+    <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher"/>
+    <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce"><joint_name>suspension_L</joint_name></plugin>
+    <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce"><joint_name>suspension_R</joint_name></plugin>
+
+    <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
+      <left_joint>drive_L</left_joint>
+      <right_joint>drive_R</right_joint>
+      <wheel_separation>0.7</wheel_separation>
+      <wheel_radius>0.15</wheel_radius>
+      <topic>cmd_vel</topic>
+      <max_linear_acceleration>0.4</max_linear_acceleration>
+      <max_wheel_torque>35.0</max_wheel_torque> 
+    </plugin>
+
+    <plugin
+      filename="gz-sim-odometry-publisher-system"
+      name="gz::sim::systems::OdometryPublisher">
+      <odom_frame>odom</odom_frame>
+      <robot_base_frame>chassis</robot_base_frame>
+      <publish_odom_tf>true</publish_odom_tf> 
+    </plugin>
+
+
+  </model>
+</sdf>
