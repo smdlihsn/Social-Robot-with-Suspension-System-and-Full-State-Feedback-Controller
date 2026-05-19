@@ -1,10 +1,13 @@
-ros2 launch sim_launch.py
+ros2 launch my_robot_controller sim_launch.py
+
+ros2 run my_robot_controller {NAME OF THE SCRIPT}
 
 ros2 topic
 
 ros2 run plotjuggler plotjuggler
 
 
+<<<<<<< HEAD
 ros2 topic pub --once /social_tilt std_msgs/msg/Float64 "{data: 0.05}"
 
 
@@ -14,3 +17,6 @@ ros2 topic pub --once /social_tilt std_msgs/msg/Float64MultiArray "{data: [0.0, 
 rm -rf build/my_robot_controller/ install/my_robot_controller/
 
 ros2 topic pub -1 /enable_centering std_msgs/msg/Bool "{data: true}"
+=======
+ros2 topic pub --once /social_tilt std_msgs/msg/Float64MultiArray "{data: [0.0, 0.0]}"
+>>>>>>> b36b0f6434b83d611e17311a8621a8d289027ea7
