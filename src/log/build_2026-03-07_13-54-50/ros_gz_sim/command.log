@@ -1,0 +1,5 @@
+Invoking command in '/home/hasanu/susp_test/src/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hasanu/susp_test/src/ros_gz/ros_gz_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hasanu/susp_test/src/install/ros_gz_sim
+Invoked command in '/home/hasanu/susp_test/src/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hasanu/susp_test/src/ros_gz/ros_gz_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hasanu/susp_test/src/install/ros_gz_sim
+Invoking command in '/home/hasanu/susp_test/src/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hasanu/susp_test/src/build/ros_gz_sim -- -j12 -l12
+Invoked command in '/home/hasanu/susp_test/src/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hasanu/susp_test/src/build/ros_gz_sim -- -j12 -l12
+Invoking command in '/home/hasanu/susp_test/src/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hasanu/susp_test/src/build/ros_gz_sim

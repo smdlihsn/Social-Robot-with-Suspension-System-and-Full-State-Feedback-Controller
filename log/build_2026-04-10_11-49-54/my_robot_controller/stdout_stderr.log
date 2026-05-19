@@ -1,0 +1,36 @@
+running develop
+running egg_info
+writing my_robot_controller.egg-info/PKG-INFO
+writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+writing entry points to my_robot_controller.egg-info/entry_points.txt
+writing requirements to my_robot_controller.egg-info/requires.txt
+writing top-level names to my_robot_controller.egg-info/top_level.txt
+reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+
+Installed /home/hasanu/susp_test/build/my_robot_controller
+running symlink_data
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/resource/my_robot_controller -> /home/hasanu/susp_test/install/my_robot_controller/share/ament_index/resource_index/packages
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/package.xml -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/launch/sim_launch.py -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/launch
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/grey_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/basic_chasis_test.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/grey_robot_rear_wheel.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/my_world.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/suspension_robot_backup.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/red_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/quarter_car.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/human_model/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/human_model/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/human_model/meshes/ground.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model/meshes
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/human_model/meshes/body_mesh.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model/meshes
+error: can't copy '/home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/model.config': doesn't exist or not a regular file

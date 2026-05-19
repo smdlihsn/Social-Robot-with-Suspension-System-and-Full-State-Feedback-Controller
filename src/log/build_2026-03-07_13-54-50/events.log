@@ -1,0 +1,650 @@
+[0.000000] (-) TimerEvent: {}
+[0.000524] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000556] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000575] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000592] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000607] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000622] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.000636] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.000649] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.000663] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.000676] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.000690] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.000703] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.000718] (ros_gz_sim) JobQueued: {'identifier': 'ros_gz_sim', 'dependencies': OrderedDict()}
+[0.000737] (ros_gz_bridge) JobQueued: {'identifier': 'ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/hasanu/susp_test/src/install/ros_gz_interfaces')])}
+[0.001416] (ros_gz_sim) JobStarted: {'identifier': 'ros_gz_sim'}
+[0.010196] (ros_gz_bridge) JobStarted: {'identifier': 'ros_gz_bridge'}
+[0.014455] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'cmake'}
+[0.015112] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/hasanu/susp_test/src/ros_gz/ros_gz_sim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hasanu/susp_test/src/install/ros_gz_sim'], 'cwd': '/home/hasanu/susp_test/src/build/ros_gz_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hasanu'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hasanu'), ('OLDPWD', '/home/hasanu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '1135'), ('SYSTEMD_EXEC_PID', '1310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hasanu'), ('JOURNAL_STREAM', '8:2024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hasanu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hasanu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hasanu:@/tmp/.ICE-unix/1275,unix/hasanu:/tmp/.ICE-unix/1275'), ('INVOCATION_ID', '0b6ce3a8dcad49ca8339cc5763763fcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2IRLL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8d8ff3b2-0337-427c-9638-0e0c6789f20b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('GZ_VERSION', 'harmonic'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hasanu/susp_test/src/build/ros_gz_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.018744] (ros_gz_bridge) JobProgress: {'identifier': 'ros_gz_bridge', 'progress': 'cmake'}
+[0.019303] (ros_gz_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hasanu/susp_test/src/install/ros_gz_bridge'], 'cwd': '/home/hasanu/susp_test/src/build/ros_gz_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hasanu'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hasanu'), ('OLDPWD', '/home/hasanu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '1135'), ('SYSTEMD_EXEC_PID', '1310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hasanu'), ('JOURNAL_STREAM', '8:2024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hasanu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hasanu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hasanu:@/tmp/.ICE-unix/1275,unix/hasanu:/tmp/.ICE-unix/1275'), ('INVOCATION_ID', '0b6ce3a8dcad49ca8339cc5763763fcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2IRLL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8d8ff3b2-0337-427c-9638-0e0c6789f20b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('GZ_VERSION', 'harmonic'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hasanu/susp_test/src/build/ros_gz_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099963] (-) TimerEvent: {}
+[0.126392] (ros_gz_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.126667] (ros_gz_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200071] (-) TimerEvent: {}
+[0.220646] (ros_gz_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.221070] (ros_gz_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.232365] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.232561] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300165] (-) TimerEvent: {}
+[0.311213] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.311461] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.318437] (ros_gz_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.319029] (ros_gz_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.319169] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.319329] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.319626] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.319744] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.323462] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.323587] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400270] (-) TimerEvent: {}
+[0.411698] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.412716] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.419187] (ros_gz_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.419483] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.419962] (ros_gz_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.420645] (ros_gz_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.421012] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.421525] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.428015] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.428136] (ros_gz_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500420] (-) TimerEvent: {}
+[0.584304] (ros_gz_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.584699] (ros_gz_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600497] (-) TimerEvent: {}
+[0.633165] (ros_gz_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.634164] (ros_gz_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.664210] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.664485] (ros_gz_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700562] (-) TimerEvent: {}
+[0.704918] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.705093] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.709642] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.709735] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.717482] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.717640] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.728859] (ros_gz_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.729044] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.743225] (ros_gz_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.743399] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.782159] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.782310] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.784902] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.785055] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800623] (-) TimerEvent: {}
+[0.871640] (ros_gz_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.871986] (ros_gz_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.896785] (ros_gz_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.897181] (ros_gz_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.900692] (-) TimerEvent: {}
+[0.934428] (ros_gz_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.936700] (ros_gz_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.943469] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.943613] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000808] (-) TimerEvent: {}
+[1.009765] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.010092] (ros_gz_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.010322] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.010663] (ros_gz_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.070643] (ros_gz_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.070836] (ros_gz_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.071414] (ros_gz_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.071650] (ros_gz_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100911] (-) TimerEvent: {}
+[1.118360] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.120223] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.130214] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.132500] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.132805] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.136132] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[1.136424] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[1.146200] (ros_gz_bridge) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[1.151104] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[1.156236] (ros_gz_bridge) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[1.165325] (ros_gz_sim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.176751] (ros_gz_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.179490] (ros_gz_bridge) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.181581] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.190642] (ros_gz_bridge) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.195119] (ros_gz_bridge) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.196821] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.201007] (-) TimerEvent: {}
+[1.207668] (ros_gz_bridge) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.234056] (ros_gz_sim) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.240266] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.242302] (ros_gz_bridge) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.247188] (ros_gz_bridge) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.251362] (ros_gz_sim) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.258917] (ros_gz_bridge) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.281672] (ros_gz_sim) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.281952] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.282266] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.282341] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[1.284433] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[1.284768] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[1.287695] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.287986] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[1.290630] (ros_gz_bridge) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.292338] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.292644] (ros_gz_bridge) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[1.292969] (ros_gz_bridge) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[1.294549] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[1.294870] (ros_gz_bridge) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[1.296706] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.297019] (ros_gz_bridge) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[1.301103] (-) TimerEvent: {}
+[1.306176] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.306448] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.311397] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.313674] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.315324] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.315637] (ros_gz_bridge) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.315874] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.320356] (ros_gz_bridge) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.324045] (ros_gz_sim) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.331583] (ros_gz_bridge) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.359179] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.361717] (ros_gz_bridge) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.361853] (ros_gz_bridge) StdoutLine: {'line': b'-- Compiling against Gazebo Harmonic\n'}
+[1.361938] (ros_gz_bridge) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.362854] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.10.0\n'}
+[1.363455] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[1.366153] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[1.366562] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[1.372111] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.372580] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.375146] (ros_gz_bridge) StdoutLine: {'line': b'-- Found actuator_msgs: 0.0.1 (/opt/ros/humble/share/actuator_msgs/cmake)\n'}
+[1.375663] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.375958] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[1.376184] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.376688] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[1.378673] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[1.379003] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[1.379392] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[1.381132] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[1.381432] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[1.382027] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[1.382310] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[1.386999] (ros_gz_bridge) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.397880] (ros_gz_bridge) StdoutLine: {'line': b'-- Found gps_msgs: 2.1.1 (/opt/ros/humble/share/gps_msgs/cmake)\n'}
+[1.401204] (-) TimerEvent: {}
+[1.411074] (ros_gz_sim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.412321] (ros_gz_bridge) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.412523] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.2 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[1.415773] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.427831] (ros_gz_bridge) StdoutLine: {'line': b'-- Found ros_gz_interfaces: 0.244.22 (/opt/ros/humble/share/ros_gz_interfaces/cmake)\n'}
+[1.428054] (ros_gz_bridge) StdoutLine: {'line': b'-- Found rosgraph_msgs: 1.2.2 (/opt/ros/humble/share/rosgraph_msgs/cmake)\n'}
+[1.429245] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.442462] (ros_gz_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.442618] (ros_gz_bridge) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.472676] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.472997] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.473154] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[1.475261] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.5.0\n'}
+[1.475645] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[1.476160] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[1.478153] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.5.0\n'}
+[1.478523] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[1.479360] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.480153] (ros_gz_bridge) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.19 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[1.482599] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[1.482959] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.483256] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.483649] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.484814] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.485760] (ros_gz_sim) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.492029] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[1.494225] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.8.0\n'}
+[1.494390] (ros_gz_bridge) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.9.1 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[1.494670] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[1.498935] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.501264] (-) TimerEvent: {}
+[1.507088] (ros_gz_bridge) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)\n'}
+[1.512072] (ros_gz_sim) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.549174] (ros_gz_sim) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[1.553907] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.568456] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.572443] (ros_gz_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.601361] (-) TimerEvent: {}
+[1.608916] (ros_gz_sim) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[1.614334] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.628792] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.647725] (ros_gz_bridge) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.663489] (ros_gz_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.664193] (ros_gz_sim) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[1.668700] (ros_gz_bridge) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.668889] (ros_gz_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.668995] (ros_gz_bridge) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.669078] (ros_gz_bridge) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.669420] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.680759] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.685272] (ros_gz_bridge) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.701462] (-) TimerEvent: {}
+[1.710182] (ros_gz_bridge) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.714453] (ros_gz_sim) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[1.719719] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.731498] (ros_gz_bridge) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.732608] (ros_gz_sim) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.735979] (ros_gz_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.736628] (ros_gz_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/include>;$<BUILD_INTERFACE:/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/src>;/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/include;/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test;/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test/subscribers;/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/src\n'}
+[1.736764] (ros_gz_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.740893] (ros_gz_bridge) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.741040] (ros_gz_bridge) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.741864] (ros_gz_bridge) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.743207] (ros_gz_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.744038] (ros_gz_bridge) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.748280] (ros_gz_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.748429] (ros_gz_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.749222] (ros_gz_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.753867] (ros_gz_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.765073] (ros_gz_sim) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[1.765939] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.768475] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.8.0\n'}
+[1.768883] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[1.769120] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.769746] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.771917] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.8.0\n'}
+[1.772268] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[1.772513] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.777801] (ros_gz_sim) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.2.0") \n'}
+[1.778294] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[1.780305] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.8.0\n'}
+[1.780626] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[1.781127] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[1.783211] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.8.0\n'}
+[1.783527] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[1.786072] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[1.786385] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[1.801549] (-) TimerEvent: {}
+[1.825036] (ros_gz_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.849820] (ros_gz_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/hasanu/susp_test/src/build/ros_gz_bridge\n'}
+[1.863200] (ros_gz_bridge) CommandEnded: {'returncode': 0}
+[1.863976] (ros_gz_bridge) JobProgress: {'identifier': 'ros_gz_bridge', 'progress': 'build'}
+[1.865106] (ros_gz_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hasanu/susp_test/src/build/ros_gz_bridge', '--', '-j12', '-l12'], 'cwd': '/home/hasanu/susp_test/src/build/ros_gz_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hasanu'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hasanu'), ('OLDPWD', '/home/hasanu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '1135'), ('SYSTEMD_EXEC_PID', '1310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hasanu'), ('JOURNAL_STREAM', '8:2024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hasanu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hasanu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hasanu:@/tmp/.ICE-unix/1275,unix/hasanu:/tmp/.ICE-unix/1275'), ('INVOCATION_ID', '0b6ce3a8dcad49ca8339cc5763763fcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2IRLL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8d8ff3b2-0337-427c-9638-0e0c6789f20b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('GZ_VERSION', 'harmonic'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hasanu/susp_test/src/build/ros_gz_bridge'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.869246] (ros_gz_sim) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.877883] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.890746] (ros_gz_sim) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.901664] (-) TimerEvent: {}
+[1.903641] (ros_gz_bridge) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating factories for interface types\x1b[0m\n'}
+[1.912391] (ros_gz_bridge) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.912582] (ros_gz_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.912646] (ros_gz_bridge) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/bridge_node.dir/rclcpp_components/node_main_bridge_node.cpp.o\x1b[0m\n'}
+[1.922704] (ros_gz_sim) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.928411] (ros_gz_sim) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.940745] (ros_gz_sim) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.972944] (ros_gz_sim) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.973220] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.973523] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[1.973882] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.974131] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.974254] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.974321] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.980378] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[1.982451] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.8.0\n'}
+[1.982836] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[1.983914] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.984197] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.987208] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[1.987514] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[2.001814] (-) TimerEvent: {}
+[2.018486] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.018732] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.019047] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.019341] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.019644] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.022262] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[2.022605] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[2.022901] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.023201] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[2.023453] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.023583] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[2.025776] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[2.026166] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[2.039946] (ros_gz_bridge) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_gz_to_ros.cpp.o\x1b[0m\n'}
+[2.040150] (ros_gz_bridge) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_config.cpp.o\x1b[0m\n'}
+[2.040260] (ros_gz_bridge) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/factory_interface.cpp.o\x1b[0m\n'}
+[2.040346] (ros_gz_bridge) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle.cpp.o\x1b[0m\n'}
+[2.040415] (ros_gz_bridge) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o\x1b[0m\n'}
+[2.040481] (ros_gz_bridge) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factory_interface.cpp.o\x1b[0m\n'}
+[2.040550] (ros_gz_bridge) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_ros_to_gz.cpp.o\x1b[0m\n'}
+[2.040612] (ros_gz_bridge) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/ros_gz_bridge.cpp.o\x1b[0m\n'}
+[2.040672] (ros_gz_bridge) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/utils.cpp.o\x1b[0m\n'}
+[2.045013] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.045235] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[2.045304] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.045353] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.045408] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.055894] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[2.056085] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[2.056169] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[2.062084] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.8.0\n'}
+[2.062225] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[2.062295] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.062356] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.063652] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.064974] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[2.065673] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.065874] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[2.070674] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[2.071512] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.074610] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.085058] (ros_gz_sim) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[2.087273] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.101917] (-) TimerEvent: {}
+[2.147353] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.6.0\n'}
+[2.148112] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[2.148270] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.148527] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.149297] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.149420] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.151591] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[2.155715] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.6.0\n'}
+[2.155859] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[2.156088] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.157074] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[2.162312] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.6.0\n'}
+[2.162475] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[2.162675] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.163841] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[2.168880] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.6.0\n'}
+[2.169723] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[2.170103] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[2.175037] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.175483] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.202909] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.203110] (-) TimerEvent: {}
+[2.203237] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.203339] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.203464] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[2.203937] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.204399] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[2.205535] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[2.209871] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[2.209999] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[2.210913] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[2.212933] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[2.213781] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[2.219894] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[2.223758] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[2.224259] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[2.227882] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[2.231622] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[2.232127] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[2.235568] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[2.241714] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[2.242214] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[2.243302] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[2.248122] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[2.248633] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[2.251198] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[2.254233] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[2.254990] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[2.256004] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[2.259165] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[2.259955] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[2.263171] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[2.263916] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[2.264606] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[2.265183] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.265832] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.293508] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.294290] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.8.0\n'}
+[2.295037] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.295760] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[2.296905] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.297070] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.9.0\n'}
+[2.297472] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.301153] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[2.302200] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[2.305384] (-) TimerEvent: {}
+[2.308931] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.309099] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[2.310098] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[2.310867] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[2.311363] (ros_gz_bridge) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/builtin_interfaces.cpp.o\x1b[0m\n'}
+[2.311691] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.312661] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[2.315794] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[2.316566] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[2.317167] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.318283] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[2.321614] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[2.322831] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[2.323006] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.324323] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[2.327370] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[2.328143] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[2.331236] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[2.332690] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[2.332856] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[2.333751] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[2.336983] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[2.337727] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[2.338330] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.339634] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[2.343169] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[2.343935] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[2.344568] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.351104] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[2.356660] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[2.356798] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[2.356882] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.357627] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[2.360812] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[2.361575] (ros_gz_sim) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[2.363027] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.3\n'}
+[2.363683] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.364321] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.394222] (ros_gz_sim) StdoutLine: {'line': b'-- Compiling against Gazebo Harmonic\n'}
+[2.404994] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for gflags - found\n'}
+[2.405191] (ros_gz_sim) StdoutLine: {'line': b'\n'}
+[2.405457] (-) TimerEvent: {}
+[2.415101] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.505575] (-) TimerEvent: {}
+[2.608924] (-) TimerEvent: {}
+[2.622826] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.13 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.628853] (ros_gz_sim) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.656378] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.658260] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.658571] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hasanu/susp_test/src/ros_gz/ros_gz_sim/include>\n'}
+[2.658709] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.660113] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.660297] (ros_gz_sim) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.661120] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.664911] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.665162] (ros_gz_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.667883] (ros_gz_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.674020] (ros_gz_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.709051] (-) TimerEvent: {}
+[2.739918] (ros_gz_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.763976] (ros_gz_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/hasanu/susp_test/src/build/ros_gz_sim\n'}
+[2.796524] (ros_gz_sim) CommandEnded: {'returncode': 0}
+[2.797522] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'build'}
+[2.797976] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hasanu/susp_test/src/build/ros_gz_sim', '--', '-j12', '-l12'], 'cwd': '/home/hasanu/susp_test/src/build/ros_gz_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hasanu'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hasanu'), ('OLDPWD', '/home/hasanu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '1135'), ('SYSTEMD_EXEC_PID', '1310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hasanu'), ('JOURNAL_STREAM', '8:2024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hasanu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hasanu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hasanu:@/tmp/.ICE-unix/1275,unix/hasanu:/tmp/.ICE-unix/1275'), ('INVOCATION_ID', '0b6ce3a8dcad49ca8339cc5763763fcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2IRLL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8d8ff3b2-0337-427c-9638-0e0c6789f20b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('GZ_VERSION', 'harmonic'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hasanu/susp_test/src/build/ros_gz_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.812100] (-) TimerEvent: {}
+[2.906939] (ros_gz_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/src/service_factories/ros_gz_interfaces.cpp:29\x1b[m\x1b[K:\n'}
+[2.907233] (ros_gz_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/include/ros_gz_bridge/convert/ros_gz_interfaces.hpp:50:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kros_gz_interfaces/msg/log_playback_statistics.hpp: No such file or directory\n'}
+[2.907363] (ros_gz_bridge) StderrLine: {'line': b'   50 | #include \x1b[01;31m\x1b[K<ros_gz_interfaces/msg/log_playback_statistics.hpp>\x1b[m\x1b[K\n'}
+[2.907463] (ros_gz_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.907544] (ros_gz_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[2.910749] (ros_gz_sim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_sim.dir/src/Stopwatch.cpp.o\x1b[0m\n'}
+[2.912175] (-) TimerEvent: {}
+[2.912701] (ros_gz_sim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o\x1b[0m\n'}
+[2.916522] (ros_gz_sim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.923203] (ros_gz_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:251: CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o] Error 1\n'}
+[2.923580] (ros_gz_bridge) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.924467] (ros_gz_sim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.012304] (-) TimerEvent: {}
+[3.095122] (ros_gz_bridge) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.112415] (-) TimerEvent: {}
+[3.212764] (-) TimerEvent: {}
+[3.314928] (-) TimerEvent: {}
+[3.415349] (-) TimerEvent: {}
+[3.424987] (ros_gz_bridge) StdoutLine: {'line': b'[ 16%] Built target gtest_main\n'}
+[3.515469] (-) TimerEvent: {}
+[3.615889] (-) TimerEvent: {}
+[3.661720] (ros_gz_sim) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.716009] (-) TimerEvent: {}
+[3.788170] (ros_gz_sim) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[3.816128] (-) TimerEvent: {}
+[3.916635] (-) TimerEvent: {}
+[4.017030] (-) TimerEvent: {}
+[4.078493] (ros_gz_sim) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_sim.so\x1b[0m\n'}
+[4.117157] (-) TimerEvent: {}
+[4.217533] (-) TimerEvent: {}
+[4.240698] (ros_gz_sim) StdoutLine: {'line': b'[ 60%] Built target ros_gz_sim\n'}
+[4.319925] (-) TimerEvent: {}
+[4.420277] (-) TimerEvent: {}
+[4.520596] (-) TimerEvent: {}
+[4.620927] (-) TimerEvent: {}
+[4.721246] (-) TimerEvent: {}
+[4.821589] (-) TimerEvent: {}
+[4.921928] (-) TimerEvent: {}
+[5.022320] (-) TimerEvent: {}
+[5.122891] (-) TimerEvent: {}
+[5.223434] (-) TimerEvent: {}
+[5.324764] (-) TimerEvent: {}
+[5.425136] (-) TimerEvent: {}
+[5.525470] (-) TimerEvent: {}
+[5.625824] (-) TimerEvent: {}
+[5.716288] (ros_gz_bridge) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.725928] (-) TimerEvent: {}
+[5.826374] (-) TimerEvent: {}
+[5.832525] (ros_gz_bridge) StdoutLine: {'line': b'[ 17%] Built target gtest\n'}
+[5.864333] (ros_gz_bridge) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX executable bridge_node\x1b[0m\n'}
+[5.864588] (ros_gz_bridge) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/gz_test_msg.cpp.o\x1b[0m\n'}
+[5.864730] (ros_gz_bridge) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_bridge_gid_filtering.dir/test/test_gid_filtering.cpp.o\x1b[0m\n'}
+[5.865096] (ros_gz_bridge) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o\x1b[0m\n'}
+[5.872817] (ros_gz_bridge) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces.cpp.o\x1b[0m\n'}
+[5.873042] (ros_gz_bridge) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces_TEST.cpp.o\x1b[0m\n'}
+[5.928922] (-) TimerEvent: {}
+[6.029272] (-) TimerEvent: {}
+[6.131923] (-) TimerEvent: {}
+[6.185984] (ros_gz_bridge) StdoutLine: {'line': b'[ 23%] Built target bridge_node\n'}
+[6.232038] (-) TimerEvent: {}
+[6.333397] (-) TimerEvent: {}
+[6.387563] (ros_gz_sim) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[6.433519] (-) TimerEvent: {}
+[6.498996] (ros_gz_bridge) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test/utils/ros_test_msg.cpp:15\x1b[m\x1b[K:\n'}
+[6.499233] (ros_gz_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test/utils/ros_test_msg.hpp:66:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kros_gz_interfaces/msg/log_playback_statistics.hpp: No such file or directory\n'}
+[6.499358] (ros_gz_bridge) StderrLine: {'line': b'   66 | #include \x1b[01;31m\x1b[K<ros_gz_interfaces/msg/log_playback_statistics.hpp>\x1b[m\x1b[K\n'}
+[6.499449] (ros_gz_bridge) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.499523] (ros_gz_bridge) StderrLine: {'line': b'compilation terminated.\n'}
+[6.501667] (ros_gz_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_utils.dir/build.make:90: CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o] Error 1\n'}
+[6.501923] (ros_gz_bridge) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[6.511781] (ros_gz_sim) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[6.533831] (-) TimerEvent: {}
+[6.538746] (ros_gz_sim) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/test_stopwatch.dir/test/test_stopwatch.cpp.o\x1b[0m\n'}
+[6.634923] (-) TimerEvent: {}
+[6.735258] (-) TimerEvent: {}
+[6.835598] (-) TimerEvent: {}
+[6.935931] (-) TimerEvent: {}
+[7.036450] (-) TimerEvent: {}
+[7.136756] (-) TimerEvent: {}
+[7.237089] (-) TimerEvent: {}
+[7.337395] (-) TimerEvent: {}
+[7.437833] (-) TimerEvent: {}
+[7.536253] (ros_gz_bridge) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX executable test_rcl_interfaces\x1b[0m\n'}
+[7.537880] (-) TimerEvent: {}
+[7.615831] (ros_gz_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/ros_gz_bridge.dir/all] Error 2\n'}
+[7.616079] (ros_gz_bridge) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.637983] (-) TimerEvent: {}
+[7.722190] (ros_gz_bridge) StdoutLine: {'line': b'[ 24%] Built target test_rcl_interfaces\n'}
+[7.738097] (-) TimerEvent: {}
+[7.838436] (-) TimerEvent: {}
+[7.938724] (-) TimerEvent: {}
+[8.039056] (-) TimerEvent: {}
+[8.139381] (-) TimerEvent: {}
+[8.239660] (-) TimerEvent: {}
+[8.339957] (-) TimerEvent: {}
+[8.440266] (-) TimerEvent: {}
+[8.540571] (-) TimerEvent: {}
+[8.640884] (-) TimerEvent: {}
+[8.741184] (-) TimerEvent: {}
+[8.841493] (-) TimerEvent: {}
+[8.941795] (-) TimerEvent: {}
+[9.042152] (-) TimerEvent: {}
+[9.142469] (-) TimerEvent: {}
+[9.242771] (-) TimerEvent: {}
+[9.343040] (-) TimerEvent: {}
+[9.443385] (-) TimerEvent: {}
+[9.543691] (-) TimerEvent: {}
+[9.644142] (-) TimerEvent: {}
+[9.744475] (-) TimerEvent: {}
+[9.844763] (-) TimerEvent: {}
+[9.945075] (-) TimerEvent: {}
+[10.045392] (-) TimerEvent: {}
+[10.145727] (-) TimerEvent: {}
+[10.246058] (-) TimerEvent: {}
+[10.346373] (-) TimerEvent: {}
+[10.446633] (-) TimerEvent: {}
+[10.546948] (-) TimerEvent: {}
+[10.647230] (-) TimerEvent: {}
+[10.747510] (-) TimerEvent: {}
+[10.847849] (-) TimerEvent: {}
+[10.948167] (-) TimerEvent: {}
+[11.048476] (-) TimerEvent: {}
+[11.064209] (ros_gz_sim) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable test_stopwatch\x1b[0m\n'}
+[11.148615] (-) TimerEvent: {}
+[11.248917] (-) TimerEvent: {}
+[11.259016] (ros_gz_sim) StdoutLine: {'line': b'[ 90%] Built target test_stopwatch\n'}
+[11.349027] (-) TimerEvent: {}
+[11.449368] (-) TimerEvent: {}
+[11.467834] (ros_gz_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/test_utils.dir/all] Error 2\n'}
+[11.549476] (-) TimerEvent: {}
+[11.649800] (-) TimerEvent: {}
+[11.750208] (-) TimerEvent: {}
+[11.850535] (-) TimerEvent: {}
+[11.950896] (-) TimerEvent: {}
+[12.051212] (-) TimerEvent: {}
+[12.151550] (-) TimerEvent: {}
+[12.251865] (-) TimerEvent: {}
+[12.352208] (-) TimerEvent: {}
+[12.452525] (-) TimerEvent: {}
+[12.552875] (-) TimerEvent: {}
+[12.653218] (-) TimerEvent: {}
+[12.678905] (ros_gz_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable create\x1b[0m\n'}
+[12.753356] (-) TimerEvent: {}
+[12.853711] (-) TimerEvent: {}
+[12.929225] (ros_gz_bridge) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable ros_gz_bridge_gid_filtering\x1b[0m\n'}
+[12.953861] (-) TimerEvent: {}
+[13.026227] (ros_gz_sim) StdoutLine: {'line': b'[100%] Built target create\n'}
+[13.042712] (ros_gz_sim) CommandEnded: {'returncode': 0}
+[13.043218] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'install'}
+[13.052040] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hasanu/susp_test/src/build/ros_gz_sim'], 'cwd': '/home/hasanu/susp_test/src/build/ros_gz_sim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hasanu'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hasanu'), ('OLDPWD', '/home/hasanu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '1135'), ('SYSTEMD_EXEC_PID', '1310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3781'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hasanu'), ('JOURNAL_STREAM', '8:2024'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hasanu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hasanu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hasanu:@/tmp/.ICE-unix/1275,unix/hasanu:/tmp/.ICE-unix/1275'), ('INVOCATION_ID', '0b6ce3a8dcad49ca8339cc5763763fcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2IRLL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8d8ff3b2-0337-427c-9638-0e0c6789f20b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('GZ_VERSION', 'harmonic'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hasanu/susp_test/src/build/ros_gz_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.053859] (-) TimerEvent: {}
+[13.059286] (ros_gz_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.059594] (ros_gz_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.060075] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/include/ros_gz_sim/Stopwatch.hpp\n'}
+[13.068830] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/launch/gz_sim.launch.py\n'}
+[13.077048] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/lib/ros_gz_sim/create\n'}
+[13.085404] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/lib/ros_gz_sim/test_stopwatch\n'}
+[13.094149] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ament_index/resource_index/package_run_dependencies/ros_gz_sim\n'}
+[13.102981] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ament_index/resource_index/parent_prefix_path/ros_gz_sim\n'}
+[13.110872] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.sh\n'}
+[13.118319] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.dsv\n'}
+[13.126703] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/environment/path.sh\n'}
+[13.135830] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/environment/path.dsv\n'}
+[13.143461] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/local_setup.bash\n'}
+[13.151694] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/local_setup.sh\n'}
+[13.153944] (-) TimerEvent: {}
+[13.159784] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/local_setup.zsh\n'}
+[13.168717] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/local_setup.dsv\n'}
+[13.177032] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/package.dsv\n'}
+[13.185305] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ament_index/resource_index/packages/ros_gz_sim\n'}
+[13.193482] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.201802] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.209327] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig.cmake\n'}
+[13.217509] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig-version.cmake\n'}
+[13.222711] (ros_gz_bridge) StdoutLine: {'line': b'[ 25%] Built target ros_gz_bridge_gid_filtering\n'}
+[13.223749] (ros_gz_sim) StdoutLine: {'line': b'-- Symlinking: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/package.xml\n'}
+[13.223933] (ros_gz_bridge) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.225853] (ros_gz_bridge) CommandEnded: {'returncode': 2}
+[13.230754] (ros_gz_sim) StdoutLine: {'line': b'-- Installing: /home/hasanu/susp_test/src/install/ros_gz_sim/lib/libros_gz_sim.so\n'}
+[13.231379] (ros_gz_sim) StdoutLine: {'line': b'-- Set runtime path of "/home/hasanu/susp_test/src/install/ros_gz_sim/lib/libros_gz_sim.so" to ""\n'}
+[13.231470] (ros_gz_sim) StdoutLine: {'line': b'-- Installing: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport.cmake\n'}
+[13.231705] (ros_gz_sim) StdoutLine: {'line': b'-- Installing: /home/hasanu/susp_test/src/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport-noconfig.cmake\n'}
+[13.243033] (ros_gz_bridge) JobEnded: {'identifier': 'ros_gz_bridge', 'rc': 2}
+[13.243799] (ros_gz_sim) JobEnded: {'identifier': 'ros_gz_sim', 'rc': 'SIGINT'}
+[13.253969] (-) EventReactorShutdown: {}

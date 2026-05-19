@@ -1,0 +1,142 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Searching for dependencies of gz-transport13
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Found UUID: TRUE  
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.2.1
+-- Searching for dependencies of gz-utils2-cli
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Searching for dependencies of gz-msgs10
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Compiling against Gazebo Harmonic
+-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found actuator_msgs: 0.0.1 (/opt/ros/humble/share/actuator_msgs/cmake)
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found gps_msgs: 2.1.1 (/opt/ros/humble/share/gps_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rcl_interfaces: 1.2.2 (/opt/ros/humble/share/rcl_interfaces/cmake)
+-- Found ros_gz_interfaces: 0.244.22 (/opt/ros/humble/share/ros_gz_interfaces/cmake)
+-- Found rosgraph_msgs: 1.2.2 (/opt/ros/humble/share/rosgraph_msgs/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found tf2_msgs: 0.25.19 (/opt/ros/humble/share/tf2_msgs/cmake)
+-- Found trajectory_msgs: 4.9.1 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/include>;$<BUILD_INTERFACE:/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/src>;/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/include;/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test;/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test/subscribers;/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/src
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hasanu/susp_test/src/build/ros_gz_bridge
+[  1%] [34m[1mGenerating factories for interface types[0m
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/bridge_node.dir/rclcpp_components/node_main_bridge_node.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_gz_to_ros.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_config.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/factory_interface.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factory_interface.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_ros_to_gz.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/ros_gz_bridge.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/utils.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/builtin_interfaces.cpp.o[0m
+In file included from [01m[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/src/service_factories/ros_gz_interfaces.cpp:29[m[K:
+[01m[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/include/ros_gz_bridge/convert/ros_gz_interfaces.hpp:50:10:[m[K [01;31m[Kfatal error: [m[Kros_gz_interfaces/msg/log_playback_statistics.hpp: No such file or directory
+   50 | #include [01;31m[K<ros_gz_interfaces/msg/log_playback_statistics.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:251: CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 16%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 16%] Built target gtest_main
+[ 17%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 17%] Built target gtest
+[ 18%] [32m[1mLinking CXX executable bridge_node[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/gz_test_msg.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_gid_filtering.dir/test/test_gid_filtering.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces_TEST.cpp.o[0m
+[ 23%] Built target bridge_node
+In file included from [01m[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test/utils/ros_test_msg.cpp:15[m[K:
+[01m[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test/utils/ros_test_msg.hpp:66:10:[m[K [01;31m[Kfatal error: [m[Kros_gz_interfaces/msg/log_playback_statistics.hpp: No such file or directory
+   66 | #include [01;31m[K<ros_gz_interfaces/msg/log_playback_statistics.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_utils.dir/build.make:90: CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 24%] [32m[1mLinking CXX executable test_rcl_interfaces[0m
+gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/ros_gz_bridge.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 24%] Built target test_rcl_interfaces
+gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/test_utils.dir/all] Error 2
+[ 25%] [32m[1mLinking CXX executable ros_gz_bridge_gid_filtering[0m
+[ 25%] Built target ros_gz_bridge_gid_filtering
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000355] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000543] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.000752] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000777] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000797] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.000812] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000825] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.000837] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.000848] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.000867] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.000882] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.000896] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.000910] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.000927] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000946] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.099950] (-) TimerEvent: {}
+[0.200185] (-) TimerEvent: {}
+[0.300430] (-) TimerEvent: {}
+[0.400682] (-) TimerEvent: {}
+[0.500967] (-) TimerEvent: {}
+[0.601250] (-) TimerEvent: {}
+[0.701548] (-) TimerEvent: {}
+[0.784194] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/hasanu/susp_test/build/my_robot_controller/build', 'install', '--record', '/home/hasanu/susp_test/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hasanu/susp_test/src/my_robot_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hasanu', 'LC_TIME': 'hu_HU.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hasanu', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hu_HU.UTF-8', 'MANAGERPID': '1227', 'SYSTEMD_EXEC_PID': '1636', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', '_CONDA_ROOT': '/home/hasanu/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5787', 'COLCON_PREFIX_PATH': '/home/hasanu/susp_test/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'hasanu', 'JOURNAL_STREAM': '8:10706', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hasanu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/hasanu/miniconda3/condabin:/opt/ros/humble/bin:/home/hasanu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hasanu:@/tmp/.ICE-unix/1608,unix/hasanu:/tmp/.ICE-unix/1608', 'INVOCATION_ID': 'a061ca97b8214280bc717f4306f758c7', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hu_HU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'hu_HU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hasanu/susp_test/install/my_robot_controller:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/hasanu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'hu_HU.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:79640dc5-9e06-4579-8330-d1008bc86bc4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hu_HU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/hasanu/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'hu_HU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hasanu/susp_test/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'CONDA_EXE': '/home/hasanu/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'hu_HU.UTF-8', 'LC_PAPER': 'hu_HU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.801634] (-) TimerEvent: {}
+[0.901879] (-) TimerEvent: {}
+[1.002142] (-) TimerEvent: {}
+[1.032946] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.047669] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[1.048004] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[1.048343] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[1.048536] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[1.048658] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[1.081369] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[1.082848] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[1.083051] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[1.083249] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[1.083463] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/fsf_control.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.083722] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/fsf_control_old.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.084001] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/human_tracker.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.084203] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/dummy_control.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.084371] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/square_loop.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.084530] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/dance_robot.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.084686] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/center_human.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.084881] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/imufix_fsf.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.085063] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/__init__.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.085200] (my_robot_controller) StdoutLine: {'line': b'copying my_robot_controller/excited_manchild.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller\n'}
+[1.085680] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[1.090166] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[1.102223] (-) TimerEvent: {}
+[1.106351] (my_robot_controller) StdoutLine: {'line': b'copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/human_tracker.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller\n'}
+[1.107151] (my_robot_controller) StdoutLine: {'line': b'byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/human_tracker.py to human_tracker.cpython-310.pyc\n'}
+[1.108353] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[1.108527] (my_robot_controller) StdoutLine: {'line': b'copying resource/my_robot_controller -> /home/hasanu/susp_test/install/my_robot_controller/share/ament_index/resource_index/packages\n'}
+[1.108703] (my_robot_controller) StdoutLine: {'line': b'copying package.xml -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller\n'}
+[1.108904] (my_robot_controller) StdoutLine: {'line': b'copying launch/sim_launch.py -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/launch\n'}
+[1.109101] (my_robot_controller) StdoutLine: {'line': b'copying worlds/grey_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[1.109353] (my_robot_controller) StdoutLine: {'line': b'copying worlds/basic_chasis_test.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[1.109535] (my_robot_controller) StdoutLine: {'line': b'copying worlds/grey_robot_rear_wheel.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[1.109769] (my_robot_controller) StdoutLine: {'line': b'copying worlds/my_world.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[1.109961] (my_robot_controller) StdoutLine: {'line': b'copying worlds/suspension_robot_backup.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[1.110120] (my_robot_controller) StdoutLine: {'line': b'copying worlds/red_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[1.110295] (my_robot_controller) StdoutLine: {'line': b'copying worlds/quarter_car.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds\n'}
+[1.110432] (my_robot_controller) StdoutLine: {'line': b'copying models/human_model/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model\n'}
+[1.110593] (my_robot_controller) StdoutLine: {'line': b'copying models/human_model/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model\n'}
+[1.110739] (my_robot_controller) StdoutLine: {'line': b'copying models/human_model/meshes/ground.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model/meshes\n'}
+[1.111386] (my_robot_controller) StdoutLine: {'line': b'copying models/grey_robot/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot\n'}
+[1.111584] (my_robot_controller) StdoutLine: {'line': b'copying models/grey_robot/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot\n'}
+[1.111748] (my_robot_controller) StdoutLine: {'line': b'copying models/grey_robot/meshes/groundnew.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot/meshes\n'}
+[1.112418] (my_robot_controller) StdoutLine: {'line': b'copying models/grey_robot/meshes/chassis.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot/meshes\n'}
+[1.112589] (my_robot_controller) StdoutLine: {'line': b'copying models/grey_robot_rear_drive/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot_rear_drive\n'}
+[1.112774] (my_robot_controller) StdoutLine: {'line': b'copying models/grey_robot_rear_drive/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot_rear_drive\n'}
+[1.112918] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.130226] (my_robot_controller) StdoutLine: {'line': b"removing '/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.130556] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[1.131692] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[1.202313] (-) TimerEvent: {}
+[1.268692] (my_robot_controller) StdoutLine: {'line': b'Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.268910] (my_robot_controller) StdoutLine: {'line': b'Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.269032] (my_robot_controller) StdoutLine: {'line': b'Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.269185] (my_robot_controller) StdoutLine: {'line': b'Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.269313] (my_robot_controller) StdoutLine: {'line': b'Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.269437] (my_robot_controller) StdoutLine: {'line': b'Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.269572] (my_robot_controller) StdoutLine: {'line': b'Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller\n'}
+[1.270040] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/hasanu/susp_test/build/my_robot_controller/install.log'\n"}
+[1.302400] (-) TimerEvent: {}
+[1.309524] (my_robot_controller) CommandEnded: {'returncode': 0}
+[1.320131] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[1.320858] (-) EventReactorShutdown: {}

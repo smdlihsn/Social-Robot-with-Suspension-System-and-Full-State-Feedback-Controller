@@ -1,0 +1,55 @@
+<sdf version="1.8">
+
+  <model name="quarter_car">
+
+
+    <plugin
+      filename="gz-sim-joint-state-publisher-system"
+      name="gz::sim::systems::JointStatePublisher">
+      <joint_name>suspension_joint</joint_name>
+    </plugin>
+
+
+    <link name="wheel">
+      <pose>0 0 0.3 0 0 0</pose>
+      <inertial>
+        <mass>40.0</mass>
+        <inertia>
+          <ixx>1.0</ixx><iyy>1.0</iyy><izz>1.0</izz>
+        </inertia>
+      </inertial>
+      
+      <collision name="collision">
+        <geometry><cylinder><radius>0.3</radius><length>0.2</length></cylinder></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry><cylinder><radius>0.3</radius><length>0.2</length></cylinder></geometry>
+      </visual>
+    </link>
+
+    <link name="body">
+      <pose>0 0 0.8 0 0 0</pose>
+      <inertial>
+        <mass>300.0</mass>
+        <inertia>
+          <ixx>10.0</ixx><iyy>10.0</iyy><izz>10.0</izz>
+        </inertia>
+      </inertial>
+      <visual name="visual">
+        <geometry><box><size>0.5 0.5 0.2</size></box></geometry>
+      </visual>
+    </link>
+
+    <joint name="suspension_joint" type="prismatic">
+      <parent>wheel</parent>
+      <child>body</child>
+      <axis>
+        <xyz>0 0 1</xyz> <dynamics>
+          <damping>1500.0</damping>   <spring_stiffness>20000.0</spring_stiffness> <spring_reference>0.5</spring_reference> </dynamics>
+      </axis>
+    </joint>
+
+
+  </model>
+
+</sdf>

@@ -10,3 +10,7 @@ ros2 topic pub --once /social_tilt std_msgs/msg/Float64 "{data: 0.05}"
 
 
 ros2 topic pub --once /social_tilt std_msgs/msg/Float64MultiArray "{data: [0.0, 0.0]}"
+
+rm -rf build/my_robot_controller/ install/my_robot_controller/
+
+ros2 topic pub -1 /enable_centering std_msgs/msg/Bool "{data: true}"

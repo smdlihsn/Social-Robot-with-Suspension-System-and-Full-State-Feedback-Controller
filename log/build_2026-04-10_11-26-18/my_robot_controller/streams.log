@@ -1,0 +1,42 @@
+[0.817s] Invoking command in '/home/hasanu/susp_test/build/my_robot_controller': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hasanu/susp_test/build/my_robot_controller/build --no-deps symlink_data
+[1.059s] running develop
+[1.233s] running egg_info
+[1.245s] writing my_robot_controller.egg-info/PKG-INFO
+[1.245s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.245s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.245s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.245s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.269s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.271s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.291s] running build_ext
+[1.291s] Creating /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.291s] Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.291s] Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.292s] Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.292s] Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.292s] Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.292s] Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.292s] Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.292s] 
+[1.292s] Installed /home/hasanu/susp_test/build/my_robot_controller
+[1.292s] running symlink_data
+[1.293s] creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign
+[1.293s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign
+[1.294s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign
+[1.294s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/model-1_4.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign
+[1.294s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/model-1_3.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign
+[1.294s] creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/materials
+[1.294s] creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/materials/scripts
+[1.294s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/materials/scripts/stopsign.material -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/materials/scripts
+[1.294s] creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/materials/textures
+[1.294s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/materials/textures/StopSign_Spec.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/materials/textures
+[1.294s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/materials/textures/StopSign_Diffuse.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/materials/textures
+[1.294s] creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/meshes
+[1.294s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/meshes/stop_sign.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/meshes
+[1.294s] creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/thumbnails
+[1.294s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/thumbnails/3.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/thumbnails
+[1.295s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/thumbnails/5.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/thumbnails
+[1.295s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/thumbnails/4.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/thumbnails
+[1.295s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/thumbnails/2.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/thumbnails
+[1.295s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopsign/thumbnails/1.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopsign/thumbnails
+[1.319s] Invoked command in '/home/hasanu/susp_test/build/my_robot_controller' returned '0': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hasanu/susp_test/build/my_robot_controller/build --no-deps symlink_data

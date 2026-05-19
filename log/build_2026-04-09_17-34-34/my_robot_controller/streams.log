@@ -1,0 +1,23 @@
+[0.674s] Invoking command in '/home/hasanu/susp_test/build/my_robot_controller': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hasanu/susp_test/build/my_robot_controller/build --no-deps symlink_data
+[0.910s] running develop
+[1.071s] running egg_info
+[1.082s] writing my_robot_controller.egg-info/PKG-INFO
+[1.082s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.083s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.083s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.083s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.106s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.107s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.127s] running build_ext
+[1.127s] Creating /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.128s] Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.128s] Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.128s] Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.128s] Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.128s] Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.128s] Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.128s] Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.129s] 
+[1.129s] Installed /home/hasanu/susp_test/build/my_robot_controller
+[1.129s] running symlink_data
+[1.154s] Invoked command in '/home/hasanu/susp_test/build/my_robot_controller' returned '0': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hasanu/susp_test/build/my_robot_controller/build --no-deps symlink_data

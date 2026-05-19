@@ -1,0 +1,1 @@
+/home/hasanu/susp_test/src/build/ros_gz_sim/ament_cmake_environment_hooks/local_setup.sh

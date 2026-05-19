@@ -6,7 +6,7 @@ class DummyDriver(Node):
     def __init__(self):
         super().__init__('dummy_driver')
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
-        self.timer = self.create_timer(0.1, self.move_robot)
+        self.timer = self.create_timer(0.1, self.move_robot) # time
 
     def move_robot(self):
         msg = Twist()

@@ -1,0 +1,16 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000247] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000261] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.000273] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000284] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000295] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.000306] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000317] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.000327] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.000337] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.000347] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.000357] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.000367] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.000376] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.000534] (-) EventReactorShutdown: {}

@@ -1,0 +1,43 @@
+[0.663s] Invoking command in '/home/hasanu/susp_test/build/my_robot_controller': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hasanu/susp_test/build/my_robot_controller/build --no-deps symlink_data --force
+[0.908s] running develop
+[1.068s] running egg_info
+[1.080s] writing my_robot_controller.egg-info/PKG-INFO
+[1.080s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[1.080s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[1.081s] writing requirements to my_robot_controller.egg-info/requires.txt
+[1.081s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[1.104s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.105s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[1.122s] running build_ext
+[1.122s] Creating /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.123s] Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.123s] Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.123s] Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.123s] Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.124s] Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.124s] Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.124s] Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[1.124s] 
+[1.124s] Installed /home/hasanu/susp_test/build/my_robot_controller
+[1.124s] running symlink_data
+[1.124s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/resource/my_robot_controller -> /home/hasanu/susp_test/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.124s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/package.xml -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller
+[1.124s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/launch/sim_launch.py -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/launch
+[1.124s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/grey_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[1.124s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/basic_chasis_test.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/grey_robot_rear_wheel.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/my_world.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/suspension_robot_backup.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/red_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/worlds/quarter_car.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/human_model/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/human_model/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/human_model/meshes/ground.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model/meshes
+[1.125s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/human_model/meshes/body_mesh.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model/meshes
+[1.126s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/grey_robot/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot
+[1.126s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/grey_robot/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot
+[1.126s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/grey_robot/meshes/groundnew.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot/meshes
+[1.126s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/grey_robot/meshes/chassis.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot/meshes
+[1.126s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/grey_robot_rear_drive/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot_rear_drive
+[1.126s] symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/grey_robot_rear_drive/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot_rear_drive
+[1.150s] Invoked command in '/home/hasanu/susp_test/build/my_robot_controller' returned '0': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hasanu/susp_test/build/my_robot_controller/build --no-deps symlink_data --force

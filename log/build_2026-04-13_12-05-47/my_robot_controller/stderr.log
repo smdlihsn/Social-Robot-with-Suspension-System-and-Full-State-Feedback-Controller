@@ -1,0 +1,5 @@
+  File "/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/human_tracker.py", line 35
+    (r.boxes.conf[0aa])
+                  ^
+SyntaxError: invalid decimal literal
+

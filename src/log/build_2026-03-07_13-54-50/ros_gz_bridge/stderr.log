@@ -1,0 +1,18 @@
+In file included from [01m[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/src/service_factories/ros_gz_interfaces.cpp:29[m[K:
+[01m[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/include/ros_gz_bridge/convert/ros_gz_interfaces.hpp:50:10:[m[K [01;31m[Kfatal error: [m[Kros_gz_interfaces/msg/log_playback_statistics.hpp: No such file or directory
+   50 | #include [01;31m[K<ros_gz_interfaces/msg/log_playback_statistics.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ros_gz_bridge.dir/build.make:251: CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test/utils/ros_test_msg.cpp:15[m[K:
+[01m[K/home/hasanu/susp_test/src/ros_gz/ros_gz_bridge/test/utils/ros_test_msg.hpp:66:10:[m[K [01;31m[Kfatal error: [m[Kros_gz_interfaces/msg/log_playback_statistics.hpp: No such file or directory
+   66 | #include [01;31m[K<ros_gz_interfaces/msg/log_playback_statistics.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test_utils.dir/build.make:90: CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/ros_gz_bridge.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:370: CMakeFiles/test_utils.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

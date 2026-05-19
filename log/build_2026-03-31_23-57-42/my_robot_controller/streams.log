@@ -1,0 +1,30 @@
+[0.580s] Invoking command in '/home/hasanu/susp_test/src/my_robot_controller': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/hasanu/susp_test/build/my_robot_controller/build install --record /home/hasanu/susp_test/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.801s] running egg_info
+[0.802s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.802s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.802s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.802s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.803s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.804s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.805s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.805s] running build
+[0.805s] running build_py
+[0.806s] copying my_robot_controller/imufix_fsf.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.806s] running install
+[0.806s] running install_lib
+[0.807s] copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/imufix_fsf.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.808s] byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/imufix_fsf.py to imufix_fsf.cpython-310.pyc
+[0.809s] running install_data
+[0.810s] running install_egg_info
+[0.811s] removing '/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.812s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.812s] running install_scripts
+[0.830s] Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.830s] Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.831s] Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.831s] Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.831s] Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.831s] Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.831s] Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.831s] writing list of installed files to '/home/hasanu/susp_test/build/my_robot_controller/install.log'
+[0.859s] Invoked command in '/home/hasanu/susp_test/src/my_robot_controller' returned '0': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/hasanu/susp_test/build/my_robot_controller/build install --record /home/hasanu/susp_test/build/my_robot_controller/install.log --single-version-externally-managed install_data

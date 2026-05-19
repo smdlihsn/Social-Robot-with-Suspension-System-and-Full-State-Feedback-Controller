@@ -1,0 +1,38 @@
+running develop
+running egg_info
+writing my_robot_controller.egg-info/PKG-INFO
+writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+writing entry points to my_robot_controller.egg-info/entry_points.txt
+writing requirements to my_robot_controller.egg-info/requires.txt
+writing top-level names to my_robot_controller.egg-info/top_level.txt
+reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+
+Installed /home/hasanu/susp_test/build/my_robot_controller
+running symlink_data
+creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew
+creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/materials
+creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/materials/scripts
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/materials/scripts/stop sign.material -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/materials/scripts
+creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/materials/textures
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/materials/textures/StopSign Spec.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/materials/textures
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/materials/textures/StopSign Diffuse.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/materials/textures
+creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/meshes
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/meshes/stop sign.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/meshes
+creating /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/thumbnails
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/thumbnails/3.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/thumbnails
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/thumbnails/5.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/thumbnails
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/thumbnails/4.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/thumbnails
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/thumbnails/2.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/thumbnails
+symbolically linking /home/hasanu/susp_test/build/my_robot_controller/models/stopwithnew/thumbnails/1.png -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/stopwithnew/thumbnails

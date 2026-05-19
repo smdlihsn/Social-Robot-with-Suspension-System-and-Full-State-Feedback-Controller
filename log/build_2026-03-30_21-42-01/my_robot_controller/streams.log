@@ -1,0 +1,26 @@
+[0.664s] Invoking command in '/home/hasanu/susp_test/src/my_robot_controller': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/hasanu/susp_test/build/my_robot_controller/build install --record /home/hasanu/susp_test/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.831s] running egg_info
+[0.831s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.832s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.832s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.832s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.833s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.845s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.845s] running build
+[0.845s] running build_py
+[0.845s] running install
+[0.845s] running install_lib
+[0.847s] running install_data
+[0.847s] running install_egg_info
+[0.848s] removing '/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.848s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.849s] running install_scripts
+[0.863s] Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.863s] Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.863s] Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.863s] Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.863s] Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.863s] Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.863s] writing list of installed files to '/home/hasanu/susp_test/build/my_robot_controller/install.log'
+[0.879s] Invoked command in '/home/hasanu/susp_test/src/my_robot_controller' returned '0': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/hasanu/susp_test/build/my_robot_controller/build install --record /home/hasanu/susp_test/build/my_robot_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,58 @@
+[0.615s] Invoking command in '/home/hasanu/susp_test/src/my_robot_controller': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/hasanu/susp_test/build/my_robot_controller/build install --record /home/hasanu/susp_test/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[0.788s] running egg_info
+[0.799s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.799s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.799s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.799s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.799s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.822s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.823s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.823s] running build
+[0.823s] running build_py
+[0.823s] copying my_robot_controller/fsf_control.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.823s] copying my_robot_controller/fsf_control_old.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.823s] copying my_robot_controller/human_tracker.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.823s] copying my_robot_controller/dummy_control.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.824s] copying my_robot_controller/square_loop.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.824s] copying my_robot_controller/dance_robot.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.824s] copying my_robot_controller/center_human.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.824s] copying my_robot_controller/imufix_fsf.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.824s] copying my_robot_controller/__init__.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.824s] copying my_robot_controller/excited_manchild.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+[0.825s] running install
+[0.828s] running install_lib
+[0.840s] copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/human_tracker.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.840s] byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/human_tracker.py to human_tracker.cpython-310.pyc
+[0.841s] running install_data
+[0.841s] copying resource/my_robot_controller -> /home/hasanu/susp_test/install/my_robot_controller/share/ament_index/resource_index/packages
+[0.841s] copying package.xml -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller
+[0.841s] copying launch/sim_launch.py -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/launch
+[0.842s] copying worlds/grey_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[0.842s] copying worlds/basic_chasis_test.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[0.842s] copying worlds/grey_robot_rear_wheel.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[0.842s] copying worlds/my_world.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[0.842s] copying worlds/suspension_robot_backup.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[0.842s] copying worlds/red_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[0.842s] copying worlds/quarter_car.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+[0.842s] copying models/human_model/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model
+[0.843s] copying models/human_model/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model
+[0.843s] copying models/human_model/meshes/ground.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model/meshes
+[0.843s] copying models/grey_robot/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot
+[0.843s] copying models/grey_robot/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot
+[0.843s] copying models/grey_robot/meshes/groundnew.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot/meshes
+[0.844s] copying models/grey_robot/meshes/chassis.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot/meshes
+[0.844s] copying models/grey_robot_rear_drive/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot_rear_drive
+[0.844s] copying models/grey_robot_rear_drive/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot_rear_drive
+[0.844s] running install_egg_info
+[0.857s] removing '/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.857s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.858s] running install_scripts
+[0.958s] Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.958s] Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.958s] Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.958s] Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.958s] Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.958s] Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.958s] Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+[0.959s] writing list of installed files to '/home/hasanu/susp_test/build/my_robot_controller/install.log'
+[0.977s] Invoked command in '/home/hasanu/susp_test/src/my_robot_controller' returned '0': PYTHONPATH=/home/hasanu/susp_test/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/hasanu/susp_test/build/my_robot_controller/build install --record /home/hasanu/susp_test/build/my_robot_controller/install.log --single-version-externally-managed install_data

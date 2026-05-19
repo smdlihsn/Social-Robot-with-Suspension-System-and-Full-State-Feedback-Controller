@@ -1,0 +1,74 @@
+running develop
+Removing /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+running egg_info
+writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_robot_controller/fsf_control.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/fsf_control_old.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/human_tracker.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/dummy_control.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/square_loop.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/dance_robot.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/imufix_fsf.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/__init__.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+copying my_robot_controller/excited_manchild.py -> /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller
+running install
+running install_lib
+creating /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/fsf_control.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/fsf_control_old.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/human_tracker.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/dummy_control.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/square_loop.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/dance_robot.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/imufix_fsf.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+copying /home/hasanu/susp_test/build/my_robot_controller/build/lib/my_robot_controller/excited_manchild.py -> /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/fsf_control.py to fsf_control.cpython-310.pyc
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/fsf_control_old.py to fsf_control_old.cpython-310.pyc
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/human_tracker.py to human_tracker.cpython-310.pyc
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/dummy_control.py to dummy_control.cpython-310.pyc
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/square_loop.py to square_loop.cpython-310.pyc
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/dance_robot.py to dance_robot.cpython-310.pyc
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/imufix_fsf.py to imufix_fsf.cpython-310.pyc
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/excited_manchild.py to excited_manchild.cpython-310.pyc
+running install_data
+copying resource/my_robot_controller -> /home/hasanu/susp_test/install/my_robot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller
+copying launch/sim_launch.py -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/launch
+copying worlds/grey_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+copying worlds/basic_chasis_test.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+copying worlds/grey_robot_rear_wheel.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+copying worlds/my_world.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+copying worlds/suspension_robot_backup.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+copying worlds/red_robot.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+copying worlds/quarter_car.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/worlds
+copying models/human_model/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model
+copying models/human_model/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model
+copying models/human_model/meshes/ground.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model/meshes
+copying models/human_model/meshes/body_mesh.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/human_model/meshes
+copying models/grey_robot/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot
+copying models/grey_robot/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot
+copying models/grey_robot/meshes/groundnew.stl -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot/meshes
+copying models/grey_robot/meshes/chassis.dae -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot/meshes
+copying models/grey_robot_rear_drive/model.config -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot_rear_drive
+copying models/grey_robot_rear_drive/model.sdf -> /home/hasanu/susp_test/install/my_robot_controller/share/my_robot_controller/models/grey_robot_rear_drive
+running install_egg_info
+Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/hasanu/susp_test/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing active_suspension script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing dummy_driver script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing human_tracker script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing imufix_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing lets_dance script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing old_fsf script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+Installing square_loop script to /home/hasanu/susp_test/install/my_robot_controller/lib/my_robot_controller
+writing list of installed files to '/home/hasanu/susp_test/build/my_robot_controller/install.log'
